@@ -29,30 +29,18 @@
       <ul class="navbar-nav ml-auto ">
         
         <li class="nav-item active w-100">
-          <a class="nav-link" href="#"><ion-icon name="home-sharp"></ion-icon>inicio</a>
+          <a class="nav-link" href="#">Inicio</a>
         </li>
         
         <!--##################################Menu deplegable de Asociaciones ################################-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <ion-icon name="cart-sharp"></ion-icon>
-            Carrito
-          </a>
-          <div class="dropdown-menu  " aria-labelledby="dropdownMenuButton">
-            
-              <div class="row" >
-                <a href=""> <img src="" alt=""> <p>Nombre Producto</p>  </a>
-                <p>$50</p>
-                <ion-icon name="close-outline"></ion-icon>
-              </div>
-              
-
-          </div>
+        <li class="nav-item active w-100 ">
+          <a href="#" class="nav-link" >  Carrito</a>
+          
         </li>
 
         <!--###################### meno desplegable de inicio de secion#######################-->
-        <li class="nav-item dropdown w-100">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item dropdown w-100 ">
+          <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Iniciar Secion
           </a>
           <div class="dropdown-menu">
